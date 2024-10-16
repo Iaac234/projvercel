@@ -1,0 +1,25 @@
+.__cont h1,
+.__cont h2,
+.__cont h3,
+.__cont h4,
+.__cont h5,
+.__cont h6,
+.__cont blockquote,
+.__cont dd,
+.__cont hr,
+.__cont figure,
+.__cont p,
+.__cont pre {
+    font-size: revert;
+    font-weight: revert;
+}
+
+.__cont iframe{
+    width: 100%;
+    height: 700px;
+}
+
+.__cont h2{
+    border-bottom: 1px solid var(--primary);
+    margin-bottom: 10px;
+}
